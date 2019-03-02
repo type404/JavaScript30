@@ -1,0 +1,32 @@
+:root {
+    --base: yellow;
+    --spacing: 10px;
+    --blur: 10px;
+}
+
+img {
+    padding: var(--spacing);
+    background: var(--base);
+    filter: blur(var(--blur)); 
+}
+.hl{
+    color: var(--base);
+}
+/* to make sure the whole screen is part of one html element */
+html {
+min-height: 100%; 
+}
+body{
+    background: linear-gradient(135deg, #A04F88, #7C488D);
+    text-align: center;
+    font-family: 'Laila', serif;
+    color: whitesmoke;
+    font-weight: 200;
+    font-size: 30px;
+}
+.controls{
+    margin-bottom: 1.5em;
+}
+input {
+    width: 10em;
+}
